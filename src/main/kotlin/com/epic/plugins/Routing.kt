@@ -28,10 +28,7 @@ fun Application.configureRouting() {
             val items = listOf("cat", "dog", "rabbit")
             call.respondText(items.joinToString())
         }
-        get("/test") {
-            val items = listOf("cat", "dog", "rabbit sdfsfsf")
-            call.respondText(items.joinToString())
-        }
+
         get("/five") {
             val items = listOf("five things")
             call.respondText(items.joinToString())
